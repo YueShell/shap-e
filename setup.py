@@ -20,7 +20,6 @@ setup(
     install_requires=[
         "filelock",
         "Pillow",
-        "torch",
         "fire",
         "humanize",
         "requests",
@@ -30,6 +29,8 @@ setup(
         "scipy",
         "numpy",
         "blobfile",
+        "pyyaml",
+        "ipywidgets",
         "clip @ git+https://github.com/openai/CLIP.git",
     ],
     author="OpenAI",
