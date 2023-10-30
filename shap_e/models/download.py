@@ -43,7 +43,7 @@ URL_HASHES = {
 
 @lru_cache()
 def default_cache_dir() -> str:
-    return os.path.join("/root/.cache", "shap_e_model_cache")
+    return os.path.join("/home/oveadmin/.cache", "shap_e_model_cache")
 
 
 def fetch_file_cached(
